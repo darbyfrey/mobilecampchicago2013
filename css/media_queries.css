@@ -1,0 +1,94 @@
+/* wrapping intro text below logo */
+/* wrapping signup button on sidebar form */
+@media screen and (max-width: 900px){
+  .header h1 {
+    padding-top: 20px;
+    float: none;
+    margin: 0px auto;
+  }
+
+  .header .abstract {
+    padding-top: 20px;
+    float: none;
+    margin: 0px auto;
+  }
+
+  .subscribe-form .email {
+    float: none !important;
+  }
+
+  .subscribe-form .submit {
+    margin-top: 4px !important;
+    float: none !important;
+  }
+}
+
+
+@media screen and (max-width: 626px){
+  .header .abstract {
+    width: 100%;
+  }
+
+  .header a {
+    width: 100%;
+  }
+
+  .articles {
+    width: 100%;
+    float: none;
+  }
+
+  .header {
+    margin-bottom: 0px;
+  }
+
+  aside.sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  .tar-article aside {
+    width: 100%;
+  }
+
+  .subscribe-form {
+    text-align: center;
+  }
+
+  .subscribe-form .email {
+    float: left;
+  }
+
+  .subscribe-form .submit {
+    margin-top: 0;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .sticky .twitter {
+    display: none;
+  }
+
+  .sticky .rss {
+    display: none;
+  }
+
+  .sticky .dot {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px){
+  body {
+    font-size: 80%;
+  }
+
+  .header a {
+    width: 80%;
+  }
+
+  .header span {
+    text-align: center;
+  }
+}

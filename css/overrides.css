@@ -1,0 +1,21 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.outer-container {
+  margin: 0 auto;
+}
+
+.subscribe-form input.email {
+  width: 228px !important;
+}
+
+.sticky {
+  display: block;
+}
+
+.sticky .apply-btn {
+  width: 70px;
+}
